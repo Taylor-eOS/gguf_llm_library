@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gguf-llm-library"
+name = "gguf_llm_library"
 version = "0.1.0"
 description = "Provides simple LLM calls."
 authors = [{name = "Taylor-eOS"}]

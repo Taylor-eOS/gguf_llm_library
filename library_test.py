@@ -1,4 +1,4 @@
-from src.llm.llm_module import ask_llm
+from gguf_llm_library import ask_llm
 
 input_line = "You are a smart robot toy. Briefly introduce yourself."
 result = ask_llm(input_line)
