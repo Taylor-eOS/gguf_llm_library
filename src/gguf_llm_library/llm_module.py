@@ -1,6 +1,6 @@
 from huggingface_hub import hf_hub_download
 from llama_cpp import Llama
-from src.llm import settings
+from . import settings
 
 _llm = None
 _model_index = None
