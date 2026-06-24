@@ -1,5 +1,9 @@
 MODELS = [
     {
+        "repo_id": "bartowski/SmolLM2-1.7B-Instruct-GGUF",
+        "filename": "SmolLM2-1.7B-Instruct-IQ4_XS.gguf", #940MB, tiny but doesn't restrict output to requested words
+    },
+    {
         "repo_id": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
         "filename": "qwen2.5-1.5b-instruct-q6_k.gguf", #1.46GB
     },
