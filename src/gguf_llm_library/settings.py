@@ -1,15 +1,15 @@
 MODELS = [
     {
         "repo_id": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
-        "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+        "filename": "qwen2.5-1.5b-instruct-q6_k.gguf", #1.46GB
+    },
+    {
+        "repo_id": "squ11z1/Mythos-nano",
+        "filename": "mythos-nano-Q4_K_M.gguf", #1.93GB
     },
     {
         "repo_id": "bartowski/Mistral-7B-Instruct-v0.3-GGUF",
-        "filename": "Mistral-7B-Instruct-v0.3-IQ3_M.gguf"
-    },
-    {
-        "repo_id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "filename": "gemma4-coding-Q4_K_M.gguf"
+        "filename": "Mistral-7B-Instruct-v0.3-IQ4_NL.gguf", #4.13GB
     },
 ]
 N_CTX = 4 * 1024
