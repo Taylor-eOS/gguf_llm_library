@@ -1,7 +1,7 @@
 MODELS = [
     {
         "repo_id": "bartowski/SmolLM2-1.7B-Instruct-GGUF",
-        "filename": "SmolLM2-1.7B-Instruct-IQ4_XS.gguf", #940MB, tiny but doesn't restrict output to requested words
+        "filename": "SmolLM2-1.7B-Instruct-IQ4_XS.gguf", #940MB, doesn't limit output to requested words
     },
     {
         "repo_id": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
@@ -26,5 +26,5 @@ N_GPU_LAYERS = 0
 MAX_TOKENS = None #default None
 TEMPERATURE = 0.7 #default 0.8
 REPEAT_PENALTY = 1.1 #default 1.0
-DEFAULT_MODEL = 0
-SYSTEM_PROMPT = "You are a processing tool that is called from a script. Respond with a single string containing your response. Do not include anything other than the response itself."
+DEFAULT_MODEL = 1
+SYSTEM_PROMPT = "This is a text processing script. Do not include anything other than the requested response itself."
