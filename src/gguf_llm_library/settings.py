@@ -16,8 +16,12 @@ MODELS = [
         "filename": "Mistral-7B-Instruct-v0.3-IQ3_M.gguf", #3.29GB, possible Pi size
     },
     {
-        "repo_id": "Jackrong/Qwopus3.5-9B-Coder-GGUF", #claims class leader
-        "filename": "Qwopus3.5-9B-coder-Exp-IQ4_XS.gguf", #5.23GB
+        "repo_id": "bartowski/ibm-granite_granite-4.1-8b-GGUF",
+        "filename": "ibm-granite_granite-4.1-8b-IQ4_NL.gguf", #5.19GB
+    },
+    {
+        "repo_id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+        "filename": "gemma4-coding-Q4_K_M.gguf", #7.38GB
     },
 ]
 N_CTX = 4 * 1024
