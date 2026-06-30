@@ -15,6 +15,7 @@ def _get_llm(model):
             raise RuntimeError(f"Model {index} requested but model {_model_index} is already loaded")
         return _llm
     entry = settings.MODELS[index]
+    print(f"Loading model: {entry['repo_id']}, {entry['filename']}")
     path = hf_hub_download(repo_id=entry["repo_id"], filename=entry["filename"])
     _llm = Llama(model_path=path, n_ctx=settings.N_CTX, n_threads=settings.N_THREADS, n_gpu_layers=settings.N_GPU_LAYERS, verbose=False)
     _model_index = index
