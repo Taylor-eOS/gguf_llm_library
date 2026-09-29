@@ -1,35 +1,31 @@
 MODELS = [
     {
         "repo_id": "bartowski/SmolLM2-1.7B-Instruct-GGUF",
-        "filename": "SmolLM2-1.7B-Instruct-Q6_K_L.gguf", #1.43GB
+        "filename": "SmolLM2-1.7B-Instruct-Q6_K_L.gguf", #1.4GB
     },
     {
         "repo_id": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
-        "filename": "qwen2.5-1.5b-instruct-q6_k.gguf", #1.46GB
+        "filename": "qwen2.5-1.5b-instruct-q6_k.gguf", #1.5GB
     },
-    #{ #thinking model
-    #    "repo_id": "squ11z1/Mythos-nano", #3B
-    #    "filename": "mythos-nano-Q4_K_M.gguf", #1.93GB
-    #},
     {
         "repo_id": "unsloth/gemma-4-E2B-it-GGUF",
-        "filename": "gemma-4-E2B-it-IQ4_NL.gguf", #3.04GB
+        "filename": "gemma-4-E2B-it-UD-Q4_K_XL.gguf", #3.2GB
     },
     {
         "repo_id": "bartowski/Mistral-7B-Instruct-v0.3-GGUF",
-        "filename": "Mistral-7B-Instruct-v0.3-IQ3_M.gguf", #3.29GB, possible Pi size
-    },
-    {
-        "repo_id": "bartowski/ibm-granite_granite-4.1-8b-GGUF",
-        "filename": "ibm-granite_granite-4.1-8b-IQ4_NL.gguf", #5.19GB
+        "filename": "Mistral-7B-Instruct-v0.3-Q3_K_S.gguf", #3.2GB, possible Pi size
     },
     {
         "repo_id": "unsloth/gemma-4-E4B-it-GGUF",
-        "filename": "gemma-4-E4B-it-Q5_K_S.gguf", #5.4GB
+        "filename": "gemma-4-E4B-it-UD-Q4_K_XL.gguf", #5.1GB
+    },
+    {
+        "repo_id": "bartowski/ibm-granite_granite-4.1-8b-GGUF",
+        "filename": "ibm-granite_granite-4.1-8b-Q4_K_M.gguf", #5.5GB
     },
     {
         "repo_id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
-        "filename": "gemma4-coding-Q4_K_M.gguf", #7.38GB
+        "filename": "gemma4-coding-Q4_K_M.gguf", #7.4GB
     },
 ]
 N_CTX = 4 * 1024
