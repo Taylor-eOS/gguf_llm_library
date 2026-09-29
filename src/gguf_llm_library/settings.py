@@ -13,7 +13,7 @@ MODELS = [
     },
     {
         "repo_id": "bartowski/Mistral-7B-Instruct-v0.3-GGUF",
-        "filename": "Mistral-7B-Instruct-v0.3-Q3_K_S.gguf", #3.2GB, possible Pi size
+        "filename": "Mistral-7B-Instruct-v0.3-Q3_K_S.gguf", #3.8GB
     },
     {
         "repo_id": "unsloth/gemma-4-E4B-it-GGUF",
